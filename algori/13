@@ -1,0 +1,8 @@
+import heapq
+
+i = [3, 7, 9, 4, 2, 8, 1, 5]
+heapq.heapify(i)
+s = [] 
+while i:
+    s.append(heapq.heappop(i))  
+print(s)

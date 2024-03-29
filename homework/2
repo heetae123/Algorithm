@@ -1,0 +1,9 @@
+def compute_sqaure(n):
+    sum=0 
+    i=0
+    for i in range(n) :
+        sum = sum+n
+    return sum
+num=int(input("정수 하나를 입력해주세요"))
+Number= compute_sqaure(num)
+print(f"1부터 입력한 {num}만큼 다 더해드립니다 값은 {Number}")
